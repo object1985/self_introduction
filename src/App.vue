@@ -1,17 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <Profile></Profile>
+  <Skill></Skill>
+  <MyValues></MyValues>
+  <OfferInformation></OfferInformation>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Profile from "./components/Profile.vue";
+import Skill from "./components/Skill.vue";
+import MyValues from "./components/MyValues.vue";
+import OfferInformation from "./components/OfferInformation.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Profile,
+    Skill,
+    MyValues,
+    OfferInformation,
+  },
+};
 </script>
 
 <style>
