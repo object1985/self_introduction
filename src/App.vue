@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img alt="Vue logo" src="./assets/tonaise.jpg" class="selficon" />
   <Profile></Profile>
   <Skill></Skill>
   <MyValues></MyValues>
@@ -31,5 +31,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.selficon {
+  border-radius: 45%;
 }
 </style>
